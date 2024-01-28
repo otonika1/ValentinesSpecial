@@ -2,8 +2,8 @@
         <div class="d-flex justify-content-center align-items-center flex-column" style="margin-top: 30vh;">
             <h1 class="mb-2" *ngIf="!onClick">Will you be my valentine?</h1>
             <h1 class="mb-2" *ngIf="onClick">See you on november 14th</h1>
-            <img *ngIf="!onClick" src="../../assets/gifs/gavin-meme.gif">
-            <img *ngIf="onClick" src="../../assets/gifs/4bXC.gif" alt="">
+            <img *ngIf="!onClick" src="assets/gifs/gavin-meme.gif">
+            <img *ngIf="onClick" src="assets/gifs/4bXC.gif" alt="">
             <div  *ngIf="!onClick" class="my-4 d-flex align-items-center" >
                 <button (click)="onClick = true;" class="yes" style="padding: 8px;padding-left: 28px;padding-right: 28px;margin-right: 10px;color:white; border: none;">Yes!</button>
                 <a (click)="onClick = true;" style="margin-left: 10px;"  class="btn-flip" data-back="Yes!" data-front="No!"></a>
